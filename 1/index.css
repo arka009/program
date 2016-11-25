@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 13px/1 "\5FAE\8F6F\96C5\9ED1", Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+h4, h5, h6 {
+    font-size: 100%;
+}
+address, cite, dfn, var {
+    font-style: normal;
+}
+code, kbd, pre, samp, tt {
+    font-family: "Courier New", Courier, monospace;
+}
+small {
+    font-size: 12px;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+abbr[title], acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+q:before, q:after {
+    content: '';
+}
+legend {
+    color: #000;
+}
+a, img {
+    border: 0;
+}
+fieldset, img {
+    border: none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    border: none;
+    height: 1px;
+}
+html {
+    overflow-y: scroll;
+}
+
+/*清除浮动*/
+.cleardiv {
+    clear: both;
+}
+
+/* 左右浮动 */
+.f_left {
+    float: left;
+}
+.f_right {
+    float: right;
+}
+.content_wai {
+    width: 100%;
+}
+.logo_mcy {
+    float: left;
+    margin-top: 6px;
+}
+.nav_mcy {
+    float: right;
+}
+.nav_mcy ul li {
+    float: left;
+    width: 97px;
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    background: url(mcy_ico.png) no-repeat;
+    border-left: 1px solid #d6e4ed;
+}
+.nav_mcy ul li a {
+    display: block;
+    height: 100px;
+    width: 97px;
+    position: relative;
+    color: #3e667d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.nav_mcy ul li a span {
+    display: block;
+    width: 97px;
+    height: 36px;
+    position: absolute;
+}
+.nav_mcy ul li a .menu_view {
+    width: 97px;
+    height: 36px;
+    position: absolute;
+    top: 64px;
+    overflow: hidden;
+}
+.nav_mcy ul li a span.en {
+    top: 0px;
+}
+.nav_mcy ul li a span.cn {
+    top: 36px;
+}
+.nav_mcy ul li a.en {
+    font-family: "Arial";
+}
+.nav_mcy ul li a:hover {
+    text-decoration: none;
+}
+.nav_mcy ul li.n1 {
+    background-position: 33px 20px;
+}
+.nav_mcy ul li.n1:hover {
+    background-color: #75a7c4;
+    background-position: 33px -70px;
+}
+.nav_mcy ul li.n2:hover {
+    background-color: #75a7c4;
+    background-position: -63px -70px;
+}
+.nav_mcy ul li.n3:hover {
+    background-color: #75a7c4;
+    background-position: -162px -70px;
+}
+.nav_mcy ul li.n4:hover {
+    background-color: #75a7c4;
+    background-position: -256px -70px;
+}
+.nav_mcy ul li.n5:hover {
+    background-color: #75a7c4;
+    background-position: -360px -70px;
+}
+.nav_mcy ul li.n6:hover {
+    background-color: #75a7c4;
+    background-position: -454px -70px;
+}
+.nav_mcy ul li.n7:hover {
+    background-color: #75a7c4;
+    background-position: -554px -70px;
+}
+.nav_mcy ul li.n8:hover {
+    background-color: #75a7c4;
+    background-position: -655px -70px;
+}
+.nav_mcy ul li.n9:hover {
+    background-color: #75a7c4;
+    background-position: -745px -70px;
+}
+.nav_mcy ul li.n2 {
+    background-position: -63px 20px;
+}
+.nav_mcy ul li.n3 {
+    background-position: -162px 20px;
+}
+.nav_mcy ul li.n4 {
+    background-position: -256px 20px;
+}
+.nav_mcy ul li.n5 {
+    background-position: -360px 20px;
+}
+.nav_mcy ul li.n6 {
+    background-position: -454px 20px;
+}
+.nav_mcy ul li.n7 {
+    background-position: -554px 20px;
+}
+.nav_mcy ul li.n8 {
+    background-position: -655px 20px;
+}
+.nav_mcy ul li.n9 {
+    background-position: -745px 20px;
+}
+.nav_mcy ul li.n10 {
+    background-position: -840px 35px;
+}
+.nav_mcy ul li.n11 {
+    background-position: -935px 34px;
+}
+.pull_down {
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 100%;
+    display: none;
+}
+.pull_down ul {
+    margin-right: 193px;
+    padding-top: 15px;
+}
+.pull_down ul li {
+    float: right;
+    width: 97px;
+    line-height: 24px;
+    background: none;
+}
+.pull_down ul li p {
+    padding-left: 15px;
+    text-align: left;
+}
+.pull_down ul li a {
+    color: #666;
+    font-size: 13px;
+}
+.pull_down ul li a:hover {
+    color: #75a7c4;
+    text-decoration: underline;
+}
